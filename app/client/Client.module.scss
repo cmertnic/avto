@@ -1,0 +1,184 @@
+.Page {
+	margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1660px;
+
+	.Page_row {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 1600px;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.p {
+		color: #384D6C;
+		font-size: 36px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		width: auto;
+		text-wrap: wrap;
+		width: 400px;
+		text-align: center;
+		font-weight: 600;
+		margin-bottom: 40px;
+		text-align: left;
+	}
+
+
+	.text_div {
+		display: flex;
+		width: 1660px;
+		flex-wrap: wrap;
+		margin-bottom: 50px;
+		margin-top: 50px;
+		justify-content: center;
+	}
+
+	h2 {
+		color: black;
+		font-size: 80px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		width: 1658px;
+		font-weight: 100;
+		text-wrap: wrap;
+		font-style: normal;
+		margin-bottom: 50px;
+	}
+	.inputs_div{
+		display: flex;
+		flex-wrap: wrap;
+		width: 1660px;
+		align-items: center;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.input_div {
+		display: flex;
+		width: 1540px;
+		margin-top: 42px;
+		justify-content:space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.input_div_submit{
+		display: flex;
+		width: 900px;
+		margin-top: 42px;
+		justify-content: space-between;
+margin-left: auto;
+	}
+	.input_div_submit2{
+		display: flex;
+		width: 677px;
+		margin-top: 42px;
+
+	}
+	.input {
+		position: relative;
+		min-width: 701px;
+		height: 137px;
+		padding-left: 39px;
+		padding-right: 90px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 10px;
+		border: 2px solid #000000;
+		color-scheme: none;
+		color: black;
+		opacity: 0.65;
+		font-size: 30px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		margin-left: 2px;
+		margin-right: 10px;
+		align-items: center;
+	}
+	.div_header_prof{
+		margin-top: 50px;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1660px;
+		justify-content: space-between;
+	}
+	.submit{
+		color: rgb(255, 255, 255);
+		position: relative;
+		width: 270px;
+		height: 115px;
+		padding-left: 39px;
+		padding-right: 39px;
+		border-radius: 10px;
+		background-color: #384D6C;
+		border: 0px ;
+		color-scheme: none;
+		font-size: 24px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		text-align: center;
+		resize: none;
+		cursor: pointer;
+		margin-left: auto;
+		text-align: center;
+	}
+	.submit:hover{
+		background-color: #4169ee;
+	}
+	.submit2{
+		color: black;
+		position: relative;
+		width: 260px;
+		height: 112px;
+		padding-left: 39px;
+		padding-right: 30px;
+		border-radius: 10px;
+		background-color: #67DBE2;
+		border: 1px solid black;
+		color-scheme: none;
+		font-size: 24px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		text-align: center;
+		resize: none;
+		cursor: pointer;
+		margin-left: auto;
+	}
+	.submit2:hover{
+		background-color: #4169ee;
+	}
+	.submit3{
+		color: black;
+		position: relative;
+		width: 260px;
+		height: 112px;
+		padding-left: 30px;
+		padding-right: 40px;
+		padding-top: 40px;
+		border-radius: 10px;
+		background-color: #67DBE2;
+		border: 1px solid black;
+		color-scheme: none;
+		font-size: 24px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		text-align: center;
+		resize: none;
+		cursor: pointer;
+		margin-left: auto;
+	}
+	.submit3:hover{
+		background-color: #4169ee;
+	}
+}

@@ -1,0 +1,118 @@
+.page {
+	margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1660px;
+
+	.page_row {
+		display: flex;
+		justify-content: space-between;
+		width: 1660px;
+		flex-wrap: wrap;
+	}
+
+	.p {
+		color: rgb(255, 255, 255);
+		font-size: 35px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		width: 200px;
+		text-wrap: wrap;
+		margin-bottom: 8px;
+	}
+
+
+	h2 {
+		color: black;
+		font-size: 80px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		width: 1658px;
+		text-wrap: wrap;
+		font-style: normal;
+		margin-bottom: 50px;
+	}
+
+	.text_div {
+		display: flex;
+		width: 300px;
+		flex-wrap: wrap;
+		margin-bottom: 27px;
+		margin-top: 24px;
+		margin-left: 10px;
+
+	}
+
+	.padding {
+		margin-top: 20px;
+	}
+
+	.cards {
+		width: 1242px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+
+	.panel {
+		width: 350px;
+		height: 1277px;
+		background-color: #3F508A;
+		border-radius: 10px;
+		margin-top: 50px;
+	}
+	.group_input{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 155px;
+		text-align: center;
+	}
+	.group_inputs{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 330px;
+		text-align: center;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: space-between;
+	}
+	.input {
+		position: relative;
+		width: 155px;
+		height: 56px;
+		padding-left: px;
+		padding-right: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 10px;
+		border: 2px solid #0CA2D1;
+		color-scheme: none;
+		color: black;
+		font-size: 24px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-left: 5px;
+	}
+	.input2 {
+		position: relative;
+		min-width: 330px;
+		height: 40px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 30px;
+		border: 2px solid #0CA2D1;
+		color-scheme: none;
+		color: black;
+		font-size: 24px;
+		font-family: "Karla", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		padding-left: 10px;
+	}
+}
